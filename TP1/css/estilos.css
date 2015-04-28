@@ -1,0 +1,174 @@
+h1{
+	color: #F86500;
+	font-weight: lighter;
+	font-family: helvetica, arial;
+	font-size: 1.8em;
+}
+
+p{
+	font-family: helvetica, arial;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*cabecera*/
+#logo_ishidan{
+	background-color: #1E1E1E;
+	padding-left: 28px;
+	/*width: 100%;*/
+}
+
+#cabecera {
+	background-color: #F86500;
+	position: relative;
+	/*max-width: 960px;*/
+
+}
+
+#navegador ul{
+   list-style-type: none;
+   text-align: left;
+   font-family: helvetica, arial;
+   font-size: 1em;
+   font-weight: bold;
+   color: white;
+
+}
+
+#navegador li{
+   display: inline;
+   text-align: left;
+   margin: 0 20px 20px 0;
+}
+
+#navegador li a{
+   padding: 16px 5px 1px 2px;
+   color: white;
+   background-color: #F86500;
+   text-decoration: none;
+}
+
+#navegador li a:hover{
+   /*background-color: #1E1E1E;*/
+   background: linear-gradient(grey, black);
+   color: white;
+}
+
+/*contenedor*/
+
+
+#contenedor{
+	padding-left: 37px;
+	max-width: 960px;
+	width: 100%;
+	position: relative;
+}
+
+#bloque_a{
+	padding-bottom: 100px;
+}
+
+#bloque_a1{
+	float: left;
+	width: 45%;
+	padding-right: 25px;
+}
+
+#pregunta{
+	font-size: 0.8em;
+	background-color: #F2F2F2;
+	margin-top: 31px;
+}
+
+#pregunta img{
+	float: left;
+	text-align: left;
+	margin-top: -6px;
+
+}
+
+#bloque_a2{
+	float: left;
+	width: 50%;
+}
+
+#ingreso{
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 75%;
+}
+
+label{
+	display: block;
+  	margin: 1.5em 0 -0.5em 0;
+}
+
+#boton_ingresar{
+	display: block;
+	margin: .8em 0 .8em 0;
+}
+
+span.link{
+	color: #F86500;
+	text-decoration: underline;
+}
+
+span.especial{
+	color: black;
+	font-size: 0.7em;
+}
+
+div.imagen{
+	float:left;
+	margin-right: 7%;
+	margin-top: 40px;
+	margin-bottom: -20px;
+	border: 1px solid black;
+	font-size: 0.7em;
+	background-color: #383838;
+	color: white;
+}
+
+input.boton_enviar{
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 10%;
+
+}
+
+
+/*pie*/
+
+#pie p{
+	font-weight: lighter;
+}
+
+#pie{
+	padding-top: 50px; 
+	height: 80px;
+	margin-left: 20%;
+	text-align: center;
+	clear: both;
+	width: 100%;
+}
+
+span.resaltar{
+	color: #F86500;
+	font-weight: bold;
+}
+
+#boton_atras{
+	float:left;
+	padding-top: 25px; 
+	margin-right: 10px;
+}
+
+#info_pie{
+	float:left;
+}
+
+#boton_adelante{
+	float:left;
+	padding-top: 25px;
+	margin-left: 10px;
+}
